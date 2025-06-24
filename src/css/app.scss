@@ -37,10 +37,11 @@
   --fbc-gray-20: #494d64 !important;
   --fbc-light-gray: #6c7086 !important;
   --fbc-white: #000000 !important;
+  --q-card-head-hover: #181825 !important;
 }
 
 // bg stuff
-.header-background, .q-card, .q-list, .q-scrollarea__content, .q-drawer__content  {
+.header-background, .q-card, .q-list, .q-scrollarea__content, .q-drawer__content, .light  {
   background: #181825 !important;
   box-shadow: unset !important;
 }
@@ -97,4 +98,12 @@
 
 .q-drawer__content > .q-scrollarea {
   margin-top: unset !important;
+}
+
+.highcharts-color-1 {
+  fill: var(--q-positive) !important;
+}
+
+.highcharts-color-0 {
+  fill: #cdd6f4 !important;
 }
