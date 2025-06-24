@@ -88,7 +88,7 @@
   color: #cdd6f4 !important;
 }
 
-.q-separator, .q-avatar, .q-footer, .q-field__label, [class="q-img q-img--menu absolute-top"] {
+.q-separator, .q-footer, .q-field__label, [class="q-img q-img--menu absolute-top"] {
   display: none !important;
 }
 
@@ -106,4 +106,8 @@
 
 .highcharts-color-0 {
   fill: #cdd6f4 !important;
+}
+
+.q-circular-progress {
+  color: unset !important;
 }
