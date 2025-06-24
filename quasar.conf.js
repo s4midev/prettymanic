@@ -177,13 +177,13 @@ module.exports = configure(function (ctx) {
 
 
       manifest: {
-        name: `Unmanic`,
-        short_name: `Unmanic`,
+        name: `Prettymanic`,
+        short_name: `Prettymanic`,
         description: `A simple tool for optimising your video library to a single, uniform format`,
         display: 'standalone',
         orientation: 'portrait',
-        background_color: '#ffffff',
-        theme_color: '#027be3',
+        background_color: '#1e1e2e',
+        theme_color: '#181825',
         icons: [
           {
             src: 'icons/icon-128x128.png',

@@ -21,3 +21,80 @@
 .bg-card-head {
   background: var(--q-card-head) !important
 }
+
+// prettymanic
+
+:root {
+  --q-primary: #DDB6F2;
+  --q-secondary: #11111b;
+  --q-accent: #957FB8;
+  --q-info: #89B4FA;
+  --q-warning: #F9E2AF;
+  --q-positive: #ABE9B3;
+  --q-negative: #F38BA8;
+  --fbc-blue-60: #89B4FA !important;
+  --fbc-blue-70: #458588 !important;
+  --fbc-gray-20: #494d64 !important;
+  --fbc-light-gray: #6c7086 !important;
+  --fbc-white: #000000 !important;
+}
+
+// bg stuff
+.header-background, .q-card, .q-list, .q-scrollarea__content, .q-drawer__content  {
+  background: #181825 !important;
+  box-shadow: unset !important;
+}
+
+.worker-progress-card {
+  background: #11111b !important;
+}
+
+.q-card {
+  border-radius: 10px !important;
+}
+.q-page {
+  background: #1e1e2e !important;
+}
+
+// text
+.q-item, .q-item__label, .q-card__section, .q-field__native {
+  color: #cdd6f4 !important;
+}
+
+.q-btn__content:is(.bg-secondary) {
+  color: #1e1e2e !important;
+  .q-icon {
+    color: #1e1e2e !important;
+  }
+}
+
+// colourful text
+
+.text-indigo-10 {
+  color: #89dceb !important;
+}
+
+.text-amber-10 {
+  color: #f9e2af !important;
+}
+
+.text-cyan-10 {
+  color: #a6e3a1 !important;
+}
+
+// icon
+.q-icon {
+  color: #cdd6f4 !important;
+}
+
+.q-separator, .q-avatar, .q-footer, .q-field__label, [class="q-img q-img--menu absolute-top"] {
+  display: none !important;
+}
+
+[class="q-field__control-container col relative-position row no-wrap q-anchor--skip"] {
+  padding-top: unset !important;
+}
+
+.q-drawer__content > .q-scrollarea {
+  margin-top: unset !important;
+}

@@ -23,6 +23,8 @@ export const getUnmanicApiUrl = function (api_version, api_endpoint) {
 }
 
 export const setTheme = function (mode) {
+  return;
+  
   if (mode === 'dark') {
     setCssVar('primary', '#009fdd');
     setCssVar('secondary', '#002e5c');
